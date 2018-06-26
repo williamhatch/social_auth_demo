@@ -47,3 +47,6 @@ When you are done, simply send a pull request.
 # Feedback
 
 Got anything to say? To the issues section!
+
+
+https://scotch.io/tutorials/integrating-social-login-in-a-ruby-on-rails-application 
