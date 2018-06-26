@@ -20,7 +20,7 @@ development:
   host: localhost
   database: devise-omniauth-development
   username: root
-  password: root
+  password: 123456
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -30,7 +30,7 @@ test:
   host: localhost
   database: devise-omniauth-test
   username: root
-  password: root
+  password: 123456
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -51,6 +51,4 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+

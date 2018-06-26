@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20170427083147) do
     t.string   "provider",               limit: 50,  default: "", null: false
     t.string   "uid",                    limit: 500, default: "", null: false
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree
-    t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
+    t.index ["email"], name: "index_users_on_email", using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
     t.index ["unlock_token"], name: "index_users_on_unlock_token", unique: true, using: :btree
   end

@@ -64,6 +64,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use Dotenv for environment variables
   gem 'dotenv', '~> 2.2.1'
+  #gem 'sqlite3'
+  gem 'better_errors'
+  gem 'meta_request'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

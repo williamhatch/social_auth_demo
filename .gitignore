@@ -21,3 +21,5 @@
 
 # Ignore bower packages
 /vendor/assets/components
+/vendor/cache
+
